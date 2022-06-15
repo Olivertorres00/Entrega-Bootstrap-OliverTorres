@@ -1,0 +1,46 @@
+/* reseteo de margenes */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* estilo de body *//* Aplique grid en todo el body */
+body {
+    font-family: sans-serif;
+    background-color: white;
+    /* height: 100vh; */
+    position: relative;
+    /* padding-bottom: 3em; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem auto 4rem;
+}
+
+nav{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column-reverse;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+nav ul :hover {
+    background-color: rgba(89, 19, 170, 0.233);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(8, 8, 19) !important;
+    align-items: center;
+    margin: 2px;
+}
