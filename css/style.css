@@ -37,10 +37,3 @@ nav ul {
 nav ul :hover {
     background-color: rgba(89, 19, 170, 0.233);
 }
-
-header nav ul li a {
-    text-decoration: none;
-    color: rgb(8, 8, 19) !important;
-    align-items: center;
-    margin: 2px;
-}
