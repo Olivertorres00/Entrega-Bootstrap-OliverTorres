@@ -37,3 +37,29 @@ nav ul {
 nav ul :hover {
     background-color: rgba(89, 19, 170, 0.233);
 }
+
+.formBox {
+    width: 500px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 30px;
+    margin: 150px;
+    margin-top: 40px;
+    margin-bottom: 39px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+} 
+/* pie de pagina*/
+.pie_Pagina {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.434);
+}
+
+.piePagina {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.434);
+}
