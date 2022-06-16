@@ -5,18 +5,6 @@
     /* box-sizing: border-box; */
 }
 
-/* estilo de body *//* Aplique grid en todo el body */
-body {
-    font-family: sans-serif;
-    background-color: white;
-    /* height: 100vh; */
-    position: relative;
-    /* padding-bottom: 3em; */
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 6rem auto 4rem;
-}
 
 nav{
     align-items: center;
@@ -38,16 +26,6 @@ nav ul :hover {
     background-color: rgba(89, 19, 170, 0.233);
 }
 
-.formBox {
-    width: 500px;
-    background-color: rgba(203, 203, 174, 0.306);
-    padding: 30px;
-    margin: 150px;
-    margin-top: 40px;
-    margin-bottom: 39px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
-} 
 /* pie de pagina*/
 .pie_Pagina {
     position: fixed;
@@ -56,10 +34,40 @@ nav ul :hover {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.434);
 }
-
 .piePagina {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.434);
+}
+.titulo {
+    color: rgb(36, 1, 68);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* tex box quien soy*/
+.textBox {
+    width: 1000px;
+    background-color: rgba(203, 203, 174, 0.306);
+    padding: 60px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+    font-size: 21px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* tex box quien soy*/
+section h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
 }
